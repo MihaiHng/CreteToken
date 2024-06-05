@@ -1,0 +1,117 @@
+
+
+
+body {
+  /*background: url("./images/bg-1.png") no-repeat;*/
+  background-color: #0c0c16;
+  color: white;
+}
+
+.title {
+  color: white;
+  margin-bottom: 1 rem;
+}
+
+.box {
+  margin-top: 100px;
+  width: em;
+}
+
+.panel {
+  margin-top: 2em;
+}
+
+.panel-heading {
+  /*xbackground-image: linear-gradient(to left,#38052F, #070709);*/
+  background-color: #0c0c16;
+  color: white;
+}
+
+.address-box {
+  padding: em;
+}
+
+.box .title {
+  color: #333;
+}
+
+.button {
+  width: 230px;
+}
+
+hr {
+  height: 10px; /* Set the height */
+  background-color: #333; /* Set the background color */
+  margin: 20px; /* Add some margin for spacing */
+}
+
+.navcolumn {
+  float: left;
+  padding: 5px;
+  
+}
+
+.navcolumn.left {
+  width: 80%;
+}
+
+.navcolumn.right {
+  width: 20%;
+  background-color: #0c0c16(0, 0, 0);
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 14vh;
+}
+
+.navb {
+  background-color: #0c0c16(0, 0, 0);
+}
+
+.navb-item {
+  color: white;
+  font-size: 50px;
+  padding: 10px
+}
+
+.horizontal {
+  text-align: center;
+  margin: 0 0 0 25%;
+}
+
+.connect-wallet span {
+  color: #E10859;
+}
+
+.connect-wallet:hover {
+  background-color: #e1e1e1 !important;
+}
+
+.container.main-content {
+  max-width: 1000px !important;
+}
+
+.faucet-hero-body {
+  margin-top: 100px;
+}
+
+.withdraw-error {
+  color: red;
+}
+
+.withdraw-success {
+  color: green;
+}
+
+.column {
+  float: right;
+  width: 50%;
+  }
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
