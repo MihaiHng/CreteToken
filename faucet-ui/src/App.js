@@ -92,7 +92,6 @@ function App() {
             <div className="faucet-hero-body">
               <div className="container has-text-centered main-content">
                 <h1 className="title is-1">CRIT Faucet</h1>
-                <p>Fast and reliable</p>
                 <p>Daily limit: 50 CRIT</p>
                 <div className="mt-5">
                   {withdrawError && (
