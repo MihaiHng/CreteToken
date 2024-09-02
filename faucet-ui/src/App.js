@@ -79,9 +79,9 @@ function App() {
             </div>
           </div>
           <div className="navcolumn right">
-          <div>
-            <w3m-button />
-          </div>
+            <div>
+              <w3m-button />
+            </div>
           </div>
         </div>
       </div>
